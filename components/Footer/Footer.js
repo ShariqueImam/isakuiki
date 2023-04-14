@@ -15,7 +15,7 @@ const Footer = () => {
         <MainFooter />
       </div>
       <div className={style.social}>
-        <Social />
+        {/* <Social /> */}
       </div>
       <div className={style.signature}>
         <Signature />

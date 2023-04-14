@@ -13,7 +13,7 @@ const Contact = () => {
   const animation = useAnimation();
   const style = {
     wrapper: `bg-green-700 flex items-center justify-center ${
-      screenWidth.width > 1024 ? "h-[90vh]" : "h-[130vh] "
+      screenWidth.width > 1024 ? "h-[90vh]" : "h-[80vh] "
     }`,
     contentContainer:
       "h-[90%] md:h-[80%] lg:h-[75%] w-[90%] md:w-[95%] lg:w-[70%] flex flex-col md:flex-row items-center justify-around gap-4 md:gap-8 px-8 md:px-4",

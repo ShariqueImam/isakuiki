@@ -22,10 +22,10 @@ const Contact = () => {
           <AiOutlinePhone className="text-3xl text-primary bg-white rounded-full p-1 mx-4" />
           <p className={style.para}>070-3920033</p>
         </div>
-        <div className={style.singleContactContainer}>
+        {/* <div className={style.singleContactContainer}>
           <AiOutlineMail className="text-3xl text-primary bg-white rounded-full p-1 mx-4" />
           <p className={style.para}>funncartstore@gmail.com</p>
-        </div>
+        </div> */}
         {/* contact form */}
         <ContactForm />
       </div>
