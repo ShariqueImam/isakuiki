@@ -35,24 +35,26 @@ const HomeContent = (props) => {
           Verse Ingrediënten, Lekkere Maaltijden en Creatieve Chefs
         </h3>
         <div className={style.buttonContainer}>
-          <button
+          <a
             aria-label="Button to view menu"
             className={style.menu}
+            href="/menu"
             onClick={() => {
               onScroll("menu");
             }}
           >
             Menu bekijken
-          </button>
-          <button
+          </a>
+          <a
             aria-label="Button to book table"
             className={style.table}
+            href="/contact"
             onClick={() => {
               onScroll("booking");
             }}
           >
             Contact
-          </button>
+          </a>
         </div>
       </div>
     </div>
