@@ -12,7 +12,7 @@ const style = {
   smallHeading:
     " w-[95%] md:w-[60%] mx-auto my-2 text-3xl sm:text-3xl md:text-4xl lg:text-4xl text-[#EBB43D] text-center",
   heading:
-    "w-[95%] md:w-[60%] lg:w-[40%] mx-auto mt-28 md:my-8 text-4xl sm:text-4xl md:text-5xl lg:text-5xl text-green-700 opacity-[0.95] text-center",
+    "z-0 w-[95%] md:w-[60%] lg:w-[40%] mx-auto mt-28 md:my-8 text-4xl sm:text-4xl md:text-5xl lg:text-5xl text-green-700 opacity-[0.95] text-center",
 };
 let ani = 1;
 const Menu = ({ MenuItems }) => {
@@ -37,7 +37,7 @@ const Menu = ({ MenuItems }) => {
         Discover Our Menu
       </h1>
       <GiForkKnifeSpoon className="text-4xl mx-auto text-green-700 my-3" />
-      <LunchMenu MenuItems={MenuItems}/>
+      <LunchMenu MenuItems={MenuItems} />
     </motion.div>
   );
 };

@@ -17,7 +17,7 @@ const index = () => {
   }, []);
 
   return (
-    <div>
+    <div className="z-0">
       <div className="bg-green-700">
         <Navbar />
       </div>

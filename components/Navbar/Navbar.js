@@ -7,7 +7,7 @@ import { on } from "events";
 const Navbar = (props) => {
   const screenWidth = useWindowSize();
   const style = {
-    wrapper: "absolute md:relative text-white w-[100%] lg:w-[75%] mx-auto",
+    wrapper: "z-10 absolute md:relative text-white w-[100%] lg:w-[75%] mx-auto",
     list: "cursor-pointer  block my-4 py-2 pr-4 pl-3 text-white  hover:bg-gray-50 md:hover:bg-transparent md:border-0 font-bold md:p-0 text-white  hover:text-white hover:bg-transparent border-gray-700 transition duration-[300ms] border-move-animation",
     listHome:
       "cursor-pointer block my-4 py-2 pr-4 pl-3 text-white  hover:bg-gray-50 md:hover:bg-transparent font-bold md:p-0 hover:text-white hover:bg-transparent border-gray-700 transition duration-[300ms]",
