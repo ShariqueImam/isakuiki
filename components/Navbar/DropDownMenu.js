@@ -15,41 +15,35 @@ const DropDownMenu = (props) => {
           onScroll("home");
         }}
       >
-        <p
+        <a
           aria-label="link of the navbar"
           className={style.list}
           aria-current="page"
+          href="/"
         >
           Home
-        </p>
+        </a>
       </li>
       <li
         onClick={() => {
           onScroll("about");
         }}
       >
-        <p aria-label="link of the navbar" className={style.list}>
+        <a href="/" aria-label="link of the navbar" className={style.list}>
           About
-        </p>
+        </a>
       </li>
-      <li
-        onClick={() => {
-          onScroll("services");
-        }}
-      >
-        <p aria-label="link of the navbar" className={style.list}>
-          Services
-        </p>
-      </li>
-      <li
+      
+      <a
         onClick={() => {
           onScroll("menu");
         }}
+        href="/menu"
       >
         <p aria-label="link of the navbar" className={style.list}>
           Menu
         </p>
-      </li>
+      </a>
     </ul>
   );
 };
