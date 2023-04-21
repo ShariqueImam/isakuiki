@@ -16,16 +16,16 @@ const Contact = () => {
   return (
     <div className={style.wrapper}>
       <div className={style.contactContainer}>
-        <h2 className={style.smallHeading}>Contact Details</h2>
+        <h2 className={style.smallHeading}>Contact gegevens</h2>
 
         <div className={style.singleContactContainer}>
           <AiOutlinePhone className="text-3xl text-primary bg-white rounded-full p-1 mx-4" />
           <p className={style.para}>070-3920033</p>
         </div>
-        {/* <div className={style.singleContactContainer}>
+        <div className={style.singleContactContainer}>
           <AiOutlineMail className="text-3xl text-primary bg-white rounded-full p-1 mx-4" />
-          <p className={style.para}>funncartstore@gmail.com</p>
-        </div> */}
+          <a href="mailto:info.isakuiki@gmail.com" className={style.para}>info.isakuiki@gmail.com</a>
+        </div>
         {/* contact form */}
         <ContactForm />
       </div>

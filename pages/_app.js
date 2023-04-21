@@ -4,11 +4,11 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title  key={'title'}>Isaku Iki | Restaurant</title>
+        <title  key={'title'}>Iki | Eethuis</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta
       name="description"
-      content="Isaku Iki Restaurant"
+      content="Iki | Eethuis"
     />
 
       </Head>

@@ -18,11 +18,11 @@ const About = (props) => {
             style={{ fontFamily: "Poppins, sans-serif" }}
           >
             Ontdek de echte smaken van Indonesië bij Isaku-iki, een klein
-            familierestaurant en cateringbedrijf dat in 1998 werd opgericht door
+            familie eethuis en cateringbedrijf dat in 1998 werd opgericht door
             Huub en Maria. Het begon allemaal als een hobby - koken voor
-            vrienden en familie - maar al snel groeide het uit tot een geweldig
-            restaurant waar gasten uit alle hoeken van het land komen om te
-            genieten van authentieke Indonesische gerechten.
+            vrienden en familie - maar al snel groeide het uit tot een plek waar
+            gasten uit alle hoeken van het land komen om te genieten van
+            authentieke Indonesische gerechten.
           </p>
           <p
             className={style.details}
@@ -30,26 +30,26 @@ const About = (props) => {
           >
             <strong>"Isaku-iki"</strong>
             betekent "dit is wat ik kan" in het Javaans en dat is precies wat je
-            kunt verwachten bij Isaku-iki. Huub verwelkomt je persoonlijk in de
-            zaak, terwijl Maria al haar culinaire vaardigheden gebruikt om de
-            meest heerlijke gerechten te bereiden. De zaak is simpel, maar het
-            eten is de ster van de show. Het menu is zorgvuldig samengesteld en
-            omvat gerechten die vooral afkomstig zijn uit Midden-Java, de
-            geboorteplaats van Maria (Semarang), zoals de beroemde Nasi Gudeg en
-            Lontong Cap Gomeh.
+            kunt verwachten bij ons. Wij verwelkomen je graag in onze huiskamer,
+            terwijl Maria al haar culinaire vaardigheden gebruikt om de meest
+            heerlijke gerechten te bereiden. De zaak is simpel; verse
+            ingrediënten en huisgemaakt bumbu maakt het eten de ster van de
+            show.
             <br></br>
             <p className={style.details}></p>
-            Maar ook andere delen van Indonesië worden vertegenwoordigd, zoals
-            de smaakvolle Saté Manado uit Noord Sulawesi en de pittige Rendang
-            uit Sumatra. En natuurlijk mag je de specialiteiten van Isaku-iki
-            niet missen: Mie Ayam Bakso en Ayam Goreng Sukabumi, twee gerechten
-            die je zeker moet proberen als je op zoek bent naar een
-            onvergetelijke culinaire ervaring.
+            Het menu is zorgvuldig samengesteld en omvat gerechten die vooral
+            afkomstig zijn uit Midden-Java, de geboorteplaats van Maria
+            (Semarang), zoals de beroemde Nasi Gudeg en Lontong Cap Gomeh. Maar
+            ook andere delen van Indonesië worden vertegenwoordigd, zoals de
+            smaakvolle Saté Manado uit Noord Sulawesi en de pittige Rendang uit
+            Sumatra. En natuurlijk mag je de specialiteiten van Isaku-iki niet
+            missen: Mie Ayam Bakso en Ayam Goreng Sukabumi, twee gerechten die
+            je zeker moet proberen!
           </p>
         </div>
         <div className={style.side2}>
           <img
-            src="/food.jpeg"
+            src="/1.jpeg"
             alt=""
             className={style.img}
             style={{ clipPath: "polygon(0 10%, 100% 0%, 100% 100%, 0% 90%)" }}

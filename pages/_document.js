@@ -7,18 +7,18 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <title key={"title"}>Isaku Iki Restaurant</title>
+          <title key={"title"}>Iki | Eethuis</title>
           <meta
             name="viewport"
             content="initial-scale=1.0, width=device-width"
           />
           <meta
             name="description"
-            content="Isaku Iki Restaurant"
+            content="Iki | Eethuis"
           />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-          <link rel="shortcut icon" href="/logomob.png" />
+          <link rel="shortcut icon" href="/logo1.png" />
           <link
             href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap"
             rel="stylesheet"

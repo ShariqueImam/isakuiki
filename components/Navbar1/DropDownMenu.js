@@ -24,16 +24,7 @@ const DropDownMenu = (props) => {
           Home
         </a>
       </li>
-      <li
-        onClick={() => {
-          onScroll("about");
-        }}
-      >
-        <a href="/" aria-label="link of the navbar" className={style.list}>
-        Over ons
-        </a>
-      </li>
-      
+
       <a
         onClick={() => {
           onScroll("menu");

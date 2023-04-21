@@ -8,13 +8,13 @@ const Navbar = (props) => {
   const screenWidth = useWindowSize();
   const style = {
     wrapper: "z-10 absolute md:relative text-white w-[100%] lg:w-[75%] mx-auto",
-    list: "cursor-pointer  block my-4 py-2 pr-4 pl-3 text-white  hover:bg-gray-50 md:hover:bg-transparent md:border-0 font-bold md:p-0 text-white  hover:text-white hover:bg-transparent border-gray-700 transition duration-[300ms] border-move-animation",
+    list: "cursor-pointer  block my-4 py-2 pr-4 pl-3  hover:bg-gray-50 md:hover:bg-transparent md:border-0 font-bold md:p-0 text-green-700 hover:bg-transparent border-gray-700 transition duration-[300ms] border-move-animation",
     listHome:
-      "cursor-pointer block my-4 py-2 pr-4 pl-3 text-white  hover:bg-gray-50 md:hover:bg-transparent font-bold md:p-0 hover:text-white hover:bg-transparent border-gray-700 transition duration-[300ms]",
-    reservation: `px-2 md:px-6 py-2 md:py-2 font-bold hover:bg-gray-50 border-gray-50 border-2 hover:border-transparent hover:text-gray-900 transition duration-[300ms] cursor-pointer ${
+      "cursor-pointer block my-4 py-2 pr-4 pl-3 text-green-700  hover:bg-gray-50 md:hover:bg-transparent font-bold md:p-0 hover:text-white hover:bg-transparent border-gray-700 transition duration-[300ms]",
+    reservation: `px-2 md:px-6 py-2 md:py-2 font-bold hover:bg-gray-50 border-green-700 border-2 hover:border-transparent hover:text-gray-900 transition duration-[300ms] cursor-pointer ${
       screenWidth.width < 1024
-        ? "bg-green-700 text-[#F2ECDE]"
-        : "bg-transparent text-white"
+        ? "bg-transparent text-green-700"
+        : "bg-transparent text-green-700"
     }`,
   };
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -92,17 +92,7 @@ const Navbar = (props) => {
                   Home
                 </a>
               </li>
-              <li>
-                <p
-                  aria-label="link of the navbar"
-                  onClick={() => {
-                    onScroll("about");
-                  }}
-                  className={style.list}
-                >
-                  Over ons
-                </p>
-              </li>
+
               <li>
                 <a
                   aria-label="link of the navbar"

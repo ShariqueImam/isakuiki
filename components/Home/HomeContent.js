@@ -26,13 +26,13 @@ const HomeContent = (props) => {
           className={style.heading}
           style={{ fontFamily: "Yeseva One, cursive" }}
         >
-          Het aanbieden van de beste smaakervaring
+          De Indonesische keuken, zoals het hoort{" "}
         </h2>
         <h3
           className={style.smallHeading}
           style={{ fontFamily: "Poppins, cursive" }}
         >
-          Verse Ingrediënten, Lekkere Maaltijden en Creatieve Chefs
+          Verse ingrediënten en huisgemaakte bumbu{" "}
         </h3>
         <div className={style.buttonContainer}>
           <a

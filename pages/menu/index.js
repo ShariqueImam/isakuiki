@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Menu from "../../components/Menu/Menu";
-import Navbar from "../../components/Navbar/Navbar";
+import Navbar from "../../components/Navbar1/Navbar";
 import Footer from "../../components/Footer/Footer";
 import client from "../api/client";
 const index = () => {
@@ -18,7 +18,7 @@ const index = () => {
 
   return (
     <div className="z-0">
-      <div className="bg-green-700">
+      <div className="border-b-2 border-green-700">
         <Navbar />
       </div>
       <Menu MenuItems={MenuItems} />

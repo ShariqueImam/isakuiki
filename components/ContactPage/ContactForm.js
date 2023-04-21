@@ -82,14 +82,14 @@ const ContactForm = () => {
         <input
           type="name"
           className={style.input}
-          placeholder="Your Name here..."
+          placeholder="Naam..."
           value={Name}
           onChange={nameChangeHandler}
         />
         <input
           type="email"
           className={style.input}
-          placeholder="Your Email here... "
+          placeholder="E-mailadres... "
           value={Email}
           onChange={emailChangeHandler}
         />
@@ -97,11 +97,11 @@ const ContactForm = () => {
           rows="10"
           col="20"
           className={style.input}
-          placeholder="Your Message here... "
+          placeholder="Typ hier je bericht... "
           value={Message}
           onChange={messageChangeHandler}
         ></textarea>
-        <button className={style.btn}>Send Message</button>
+        <button className={style.btn}>Stuur ons een bericht</button>
       </form>
     </div>
   );

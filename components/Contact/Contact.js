@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import SingleDay from "./SingleDay";
-import ContactForm from "./ContactForm";
 import useWindowSize from "../hooks/windowSize";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -30,7 +29,7 @@ const Contact = () => {
     bookingHeading:
       "text-sm md:text-lg text-center text-green-700 my-4 font-semibold",
     dayContainer: "md:my-3 lg:my-12",
-    phone:'bg-green-700 text-white px-4 py-2 md:px-5 md:py-1 rounded text-xl'
+    phone: "bg-green-700 text-white px-4 py-2 md:px-5 md:py-1 rounded text-xl",
   };
   useEffect(() => {
     if (inView) {
@@ -75,8 +74,12 @@ const Contact = () => {
               >
                 {/* the days components */}
                 <SingleDay day="Maandag" time="Gesloten" />
-                <SingleDay day="Dinsdag t/m vrijdag" time="13:00-20:00" />
-                <SingleDay day="Zaterdag en zondag" time="15:00-20:00" />
+                <SingleDay day="Dinsdag" time="15:00-20:00" />
+                <SingleDay day="Woensdag" time="15:00-20:00" />
+                <SingleDay day="Donderdag" time="15:00-20:00" />
+                <SingleDay day="Vrijdag" time="15:00-20:00" />
+                <SingleDay day="Zaterdag" time="15:00-20:00" />
+                <SingleDay day="Zondag" time="15:00-20:00" />
               </div>
               <h2
                 className={style.smallHeading}

@@ -22,23 +22,17 @@ const MainFooter = () => {
       <div className={style.address}>
         <h2 className={style.heading}>Ons adres</h2>
         <h2 className={style.ourAddress}>
-          Anna Paulownastraat 17,2518 BA Den Haag
+          Anna Paulownastraat 17, 2518 BA Den Haag
         </h2>
       </div>
       <div className={style.center}>
         {/* logo */}
-        <Image src="/logo.png" height="50" width="140" alt="logo" />
-        <h2 className={style.info}>
-          "Isaku-iki"betekent "dit is wat ik kan" in het Javaans en dat is
-          precies wat je kunt verwachten bij Isaku-iki. Huub verwelkomt je
-          persoonlijk in de zaak, terwijl Maria al haar culinaire vaardigheden
-          gebruikt om de meest heerlijke gerechten te bereiden.
-        </h2>
+        <Image src="/logo1.png" height="50" width="140" alt="logo" />
       </div>
       <div className={style.contact}>
         <h2 className={style.heading}>Contact</h2>
         {/* <h2 className={style.contactContent}>Email : sharique@gmail.com</h2> */}
-        <h2 className={style.contactContent}>Phone : 070-3920033</h2>
+        <h2 className={style.contactContent}>Telefoonnummer : 070-3920033</h2>
       </div>
     </div>
   );

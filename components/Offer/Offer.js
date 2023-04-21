@@ -45,8 +45,7 @@ const Offer = () => {
       </div>
       {/* story */}
       <h2 className={style.story}>
-        Bij Isaku-iki draait alles om de smaak van Indonesië. Kom langs en proef
-        het zelf!
+      Bij Isaku-iki draait alles om de smaak van Indonesië. Kom langs en proef het zelf, of neem contact met ons op voor cateringmogelijkheden!
       </h2>
     </motion.div>
   );
