@@ -12,7 +12,7 @@ const style = {
     "flex flex-col md:flex-row w-[50%] md:w-[6`0%] mx-auto justify-around",
   menu: "my-4 px-5 md:px-6 lg:px-12 py-2 md:py-2 lg:py-4 bg-green-700 hover:bg-transparent border-transparent border-2 hover:border-green-700 text-[#F2ECDE] font-bold tracking-wide hover:bg-opacity-[0.95] cursor-pointer transition duration-[300ms] box-border text-lg w-[100%] md:w-[40%]",
   table:
-    "my-4 px-5 md:px-6 lg:px-12 py-2 md:py-2 lg:py-4 border-2 border-gray-50 hover:bg-[#F2ECDE] hover:text-gray-800  transition duration-[300ms] cursor-pointer box-border text-[#F2ECDE] font-bold tracking-wide text-lg w-[100%] md:w-[40%]",
+    "text-center my-4 px-5 md:px-6 lg:px-12 py-2 md:py-2 lg:py-4 border-2 border-gray-50 hover:bg-[#F2ECDE] hover:text-gray-800  transition duration-[300ms] cursor-pointer box-border text-[#F2ECDE] font-bold tracking-wide text-lg w-[100%] md:w-[40%]",
 };
 const HomeContent = (props) => {
   const onScroll = (val) => {
