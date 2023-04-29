@@ -74,12 +74,8 @@ const Contact = () => {
               >
                 {/* the days components */}
                 <SingleDay day="Maandag" time="Gesloten" />
-                <SingleDay day="Dinsdag" time="15:00-20:00" />
-                <SingleDay day="Woensdag" time="15:00-20:00" />
-                <SingleDay day="Donderdag" time="15:00-20:00" />
-                <SingleDay day="Vrijdag" time="15:00-20:00" />
-                <SingleDay day="Zaterdag" time="15:00-20:00" />
-                <SingleDay day="Zondag" time="15:00-20:00" />
+                <SingleDay day="Dinsdag tm Zondag " time="15:00-20:00" />
+        
               </div>
               <h2
                 className={style.smallHeading}

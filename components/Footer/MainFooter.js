@@ -32,7 +32,7 @@ const MainFooter = () => {
       <div className={style.contact}>
         <h2 className={style.heading}>Contact</h2>
         {/* <h2 className={style.contactContent}>Email : sharique@gmail.com</h2> */}
-        <h2 className={style.contactContent}>Telefoonnummer : 070-3920033</h2>
+        <h2 className={style.contactContent}>Telefoonnummer: 070-3920033</h2>
       </div>
     </div>
   );

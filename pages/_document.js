@@ -7,14 +7,14 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <title key={"title"}>Iki | Eethuis</title>
+          <title key={"title"}>Isaku Iki | Eethuis</title>
           <meta
             name="viewport"
             content="initial-scale=1.0, width=device-width"
           />
           <meta
             name="description"
-            content="Iki | Eethuis"
+            content="Isaku Iki | Eethuis"
           />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

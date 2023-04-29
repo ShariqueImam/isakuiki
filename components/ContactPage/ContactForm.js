@@ -70,15 +70,8 @@ const ContactForm = () => {
   };
   return (
     <div className={style.wrapper}>
-      <h2
-        className={style.smallHeading}
-      >
-        Send Message
-      </h2>
-      <form
-        className={style.formContainer}
-        onSubmit={submitHandler}
-      >
+      <h2 className={style.smallHeading}>Stuur ons een bericht </h2>
+      <form className={style.formContainer} onSubmit={submitHandler}>
         <input
           type="name"
           className={style.input}

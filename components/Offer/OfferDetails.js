@@ -28,7 +28,7 @@ const About = (props) => {
             className={style.details}
             style={{ fontFamily: "Poppins, sans-serif" }}
           >
-            <strong>"Isaku-iki"</strong>
+            <strong>"Isaku-iki" </strong>
             betekent "dit is wat ik kan" in het Javaans en dat is precies wat je
             kunt verwachten bij ons. Wij verwelkomen je graag in onze huiskamer,
             terwijl Maria al haar culinaire vaardigheden gebruikt om de meest

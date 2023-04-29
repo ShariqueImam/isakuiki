@@ -34,7 +34,7 @@ const Menu = ({ MenuItems }) => {
         style={{ fontFamily: "Yeseva One, cursive" }}
         className={style.heading}
       >
-        Discover Our Menu
+        Ontdek ons Menu{" "}
       </h1>
       <GiForkKnifeSpoon className="text-4xl mx-auto text-green-700 my-3" />
       <LunchMenu MenuItems={MenuItems} />

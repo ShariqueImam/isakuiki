@@ -26,7 +26,7 @@ const HomeContent = (props) => {
           className={style.heading}
           style={{ fontFamily: "Yeseva One, cursive" }}
         >
-          De Indonesische keuken, zoals het hoort{" "}
+          De Indonesische keuken zoals het hoort{" "}
         </h2>
         <h3
           className={style.smallHeading}
